@@ -1,0 +1,32 @@
+div{
+    width: 300px;
+    height: 200px;
+    background: #aaa;
+    margin: 20px auto;
+    border-radius: 5px;
+    border: 3px solid #ccc;
+}
+.grad-1{
+    background: linear-gradient(top,white,black);
+    background: -webkit-linear-gradient(top,white,black);
+    background: -moz-linear-gradient(top,white,black);
+    background: -o-linear-gradient(top,white,black);
+}
+.grad-2{
+    background: -webkit-linear-gradient(bottom,white,black);
+}
+.grad-3{
+    background: -webkit-linear-gradient(30deg,#fff, #000);
+}
+.grad-4{
+    background: -webkit-linear-gradient(top,#fff 20%, #000 80%);
+}
+.grad-5{
+    background: radial-gradient(white 0%,black 50%);
+}
+.grad-6 {
+background:radial-gradient(circle,#8F04A8 0%,#5D016D 20%,black 50%);
+}
+.grad-7 {
+background:repeating-linear-gradient(-55deg, white,white 5px, black 5px,black 10px);
+}

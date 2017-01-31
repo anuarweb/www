@@ -1,0 +1,18 @@
+.image-galary{
+    width: 1000px;
+    max-width: 90%;
+    min-width: 500px;
+    text-align: center;
+    margin:  20px auto;
+}
+.block{
+   display: inline-block;
+   max-width: 38%;
+    padding: 1%;
+    border: 2px solid #555;
+    margin: 1%;
+}
+.block img{
+    max-width: 100%;
+    display: inline-block;
+}

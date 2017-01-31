@@ -1,0 +1,10 @@
+.res-img{
+    width: 1000px;
+    max-width: 100%;
+    min-width: 500px;
+    text-align: center;
+}
+.res-img img{
+    width: 100%;
+    height: auto;
+}

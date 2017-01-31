@@ -1,0 +1,19 @@
+div{
+    border: 3px solid #666;
+    height: 30px;
+    margin: 20px;
+}
+.block{
+    display: block;
+}
+.inline{
+    display: inline;
+    padding: 10px;
+}
+.inline-block{
+    display: inline-block;
+    padding: 10px;
+}
+.none{
+    display: none;
+}

@@ -1,0 +1,8 @@
+div{
+    height: 100px;
+    margin: 10px;
+    background: #ccc;
+}
+.multy{
+    border-style: dashed double solid inset;
+}

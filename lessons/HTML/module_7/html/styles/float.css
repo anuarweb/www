@@ -1,0 +1,12 @@
+ul{
+    list-style: none;
+}
+.none li{
+    float: none;
+}
+.float-left li{
+   // float:  left;
+}
+.float-right li{
+ //   float: right;
+}

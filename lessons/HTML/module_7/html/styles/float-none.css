@@ -1,0 +1,15 @@
+div{
+    border: 3px solid #666;
+    display: inline-block;
+}
+img{
+    width: 150px;
+    margin: 5px;
+}
+div img{
+    display: block;
+    float: right;
+}
+.clear img{
+    clear: both;
+}

@@ -1,0 +1,33 @@
+div{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    border:10px solid #ccc;
+}
+.back-1{
+    background-image: url(../img/ka%20boom.png);
+    background-size: 10% 10%;
+}
+.back-2{
+    background-image: url(../img/ka%20boom.png), url(../img/ninja.png);
+    background-repeat: no-repeat;
+    background-position: left, right;
+}
+.back-3{
+    background-image: url(../img/ka%20boom.png);
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-size: 10% 10%;
+}
+.back-4{
+    background-image: url(../img/ka%20boom.png);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: 10% 10%;
+}
+.back-5{
+    background-image: url(../img/ka%20boom.png);
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    background-size: 10% 10%;
+}
