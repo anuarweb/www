@@ -1,5 +1,24 @@
-p{
+p.first{
     text-align: center;
     text-decoration: line-through;
     text-indent: 20px;
+    text-transform: uppercase;
+    word-spacing: 30px;
+    letter-spacing: 10px;
+    line-height: 100px;
+    font-family: fantasy;
+}
+p.second{
+    text-align: right;
+    text-decoration: line-through;
+    text-indent: 40px;
+    text-transform: lowercase;
+    word-spacing: 10%;
+    letter-spacing: 5%;
+    line-height: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: large;
+    font-style: italic;
+    
 }
