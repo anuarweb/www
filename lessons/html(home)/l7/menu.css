@@ -1,0 +1,31 @@
+.menu li{
+    display: inline;
+    margin-right: 5px;
+    border: 1px solid;
+    padding: 7px;
+}
+.menu li a{
+    color: black;
+    text-decoration: none;
+}
+.menu li:hover{
+    color: white;
+    background: black;
+}
+.menu2 li{
+    width: 50px;
+    list-style-type: none;
+    margin-left: 700px;
+    margin-right: 5px;
+    border: 1px solid;
+    padding: 7px;
+}
+.menu2 li a{
+    color: black;
+    text-decoration: none;
+}
+.menu2 li:hover{
+    color: white;
+    background: black;
+}
+
