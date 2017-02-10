@@ -1,0 +1,9 @@
+Server
+https://srv-plesk17.ps.kz:8443/
+login: hospital
+pass: 4imoSt2P09
+
+Wordpress
+http://hospital-mvd.kz/wp-admin
+login: anuarwebkz_tj2i9dp4
+pass: Qda#sI50X9 
