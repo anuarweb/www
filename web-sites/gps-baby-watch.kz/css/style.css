@@ -1,0 +1,15 @@
+.container-fluid{
+    clear: both;
+}
+.sidebar{
+    width: 30%;
+    float: left;
+}
+.content{
+    width: 70%;
+    float: right;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+}
