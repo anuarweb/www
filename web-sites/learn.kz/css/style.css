@@ -1,16 +1,5 @@
-.container-fluid{
+.container{
     background-color: red;
     width: 100%;
-}
-.sidebar{
-    float: left;
-    width: auto;
-    margin: auto;
-    background: aqua;    
   
-}
-.content{
-    width: auto;
-    margin: auto;
-    background: blue; 
 }

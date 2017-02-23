@@ -1,0 +1,46 @@
+.nav{
+    margin: 20px;
+    padding: 0 30px;
+    display: inline-block;
+    background: #2b2d33;
+    border-radius: 7px;
+}
+.nav > li{
+    float: left;
+    position: relative;
+    border-bottom: 3px solid transparent;
+}
+.nav > li > a{
+    text-decoration: none;
+    display: block;
+    padding: 20px 20px 17px 20px;
+    color: #fff;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.nav > li:hover{
+    background: #3a3b41;
+    border-bottom: 3px solid #f14133;
+}
+.nav > li:hover .sub-nav{
+    display: block;
+}
+.sub-nav{
+    position: absolute;
+    left: 0;
+    top: 54.5px;
+    width: 210px;
+    display: block;
+    padding-top: 20px;
+}
+.sub-nav li{
+    background: #2d2f35;
+}
+.sub-nav li a{
+    color: #fff;
+    font-size: 15px;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+}

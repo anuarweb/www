@@ -1,0 +1,16 @@
+ul{
+    list-style: none;
+    width: 200px;
+    text-align: center;
+    padding: 0;
+}
+ul li{
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+ul li:first-child{
+    background: #ccc;
+}
+ul li:last-child{
+    background: #aaa;
+}

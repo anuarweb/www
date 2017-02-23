@@ -1,0 +1,12 @@
+ul{
+    list-style-type: square;
+}
+ol{
+    list-style-type: upper-alpha;
+}
+.img{
+    list-style-image: url(http://img3.wikia.nocookie.net/__cb20130712222426/bindingofisaac/ru/images/b/bf/25px-Bomb.png)
+}
+.pos{
+    list-style-position: inside;
+}

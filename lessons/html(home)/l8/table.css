@@ -1,0 +1,14 @@
+table, td{
+    border: 1px solid;
+}
+tr:nth-child(2n){
+    background-color: aqua;
+}
+tr:hover{
+    color: white;
+    background-color: yellow;
+}
+tr:nth-child(2n):hover{
+    color: white;
+    background-color: yellow;
+}

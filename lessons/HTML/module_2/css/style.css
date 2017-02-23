@@ -1,0 +1,14 @@
+.block{
+    width: 250px;
+    height: 80px;
+    overflow: auto;
+    transition: all 0.2s ease;
+    
+    border-width: 2px;
+    border-style: dotted;
+    border-color: red;
+    
+    border-top-width: 5px;
+    border-top-style: dashed;
+    border-top-color: green;
+}

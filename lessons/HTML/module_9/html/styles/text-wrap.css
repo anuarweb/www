@@ -1,0 +1,17 @@
+body{
+    background: #aaa;
+    color: #fff;
+}
+p{
+    width: 400px;
+}
+.out{
+    text-overflow: clip;
+    overflow: hidden;
+    white-space:nowrap;
+}
+.inset{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space:nowrap;
+}

@@ -1,0 +1,10 @@
+div{
+    border: 3px solid #666;
+    height: 50px;
+}
+.visible{
+    visibility: visible;
+}
+.hidden{
+    visibility: hidden;
+}

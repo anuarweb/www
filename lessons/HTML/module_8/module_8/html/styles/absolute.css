@@ -1,0 +1,18 @@
+div{
+    width: 100px;
+    height: 100px;
+    background: #ccc;
+    margin: 10px;
+}
+.abs{
+    position: absolute;
+    background: red;
+    top: 80px;
+    left: 120px;
+}
+.abs1{
+    position: absolute;
+    background: blue;
+    top: 20px;
+    left: 190px;
+}

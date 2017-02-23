@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body id="body">
+   
+   
+    
+    <script>
+        
+        function loadAudio(arr, vol){
+            
+            var audio = document.createElement('audio');
+            for(var i = 0, len = arr.length; i < len; i++){
+                var source = document.createElement('source');
+                source.src = arr[i];
+                audio.appendChild(source);
+            }
+            
+            audio.volume = 1 || vol;
+            
+            var o = {
+                dom: false,
+                state: 'stop',
+                
+                play: function(){
+                    this.dom.currentTime = 0;
+                    this.dom.play();
+                    this.state = 'play'
+                },
+                
+                pause: function(){
+                    this.dom.pause();
+                    this.state = 'pause'
+                },
+                
+                stop: function(){
+                    this.dom.pause();
+                    this.dom.currentTime = 0;
+                    this.state = 'stop'
+                }
+            };
+            
+            o.dom = audio;
+            
+            return o;
+        }
+        
+        var dirt = loadAudio(['dirt.wav', 'dirt.ogg']);
+        var theme = loadAudio(['music.mp3'], 0.4);
+        var a;
+        
+        theme.play();
+        
+        setInterval(function(){
+            if(a == 32){
+                dirt.play();
+            }
+            if(a == 27){
+                theme.stop();
+            }
+            a = 0;
+        }, 20);
+        
+        var body = document.getElementById('body');
+        body.onkeyup = function(e){
+            a = e.keyCode;
+            
+        };
+        
+    </script>
+    
+</body>
+</html>

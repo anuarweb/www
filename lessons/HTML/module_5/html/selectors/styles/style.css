@@ -1,0 +1,12 @@
+a{
+    
+}
+a:hover{
+    color: #666;
+}
+a:active{
+    color: green;
+}
+a:visited{
+    color: rgb(255,0,0);
+}

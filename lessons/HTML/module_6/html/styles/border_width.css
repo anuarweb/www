@@ -1,0 +1,21 @@
+div{
+    height: 100px;
+    margin: 10px;
+    background: #ccc;
+}
+.size{
+    border-style: solid;
+    border-width: 10px;
+}
+.thin{
+    border-style: solid;
+    border-width: thin;
+}
+.medium{
+    border-style: solid;
+    border-width: medium;
+}
+.thick{
+    border-style: solid;
+    border-width: thick;
+}

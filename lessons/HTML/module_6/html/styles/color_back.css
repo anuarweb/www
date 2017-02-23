@@ -1,0 +1,74 @@
+body{
+    background-color: #777;
+}
+div{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+/* Цвета для элементов текста*/
+.hex{
+    color: #fff;
+}
+.color{
+    color: blue;
+}
+.rgb{
+    color: rgb(255,255,0);
+}
+/* Цвет фона элемента*/
+.bg-hex{
+    background-color: #ccc;
+}
+.bg-color{
+    background-color: white;
+}
+.bg-rgb{
+    background-color:  rgb(255,255,0);
+}
+.bg-trans{
+    background-color: transparent;
+}
+/*  Фоновое изображение*/
+.bg-url{
+    background-image: url(../img/people-50.png);
+}
+.bg-url-none{
+    background-image: none;
+}
+/*Фиксация фонового изображения*/
+.bg-scroll{
+    background-attachment: scroll;
+}
+.bg-fixed{
+    background-attachment: fixed;
+    background-color: #ccc;
+}
+/*Повторение фонового изображения*/
+.bg-no-repeeat{
+    background-repeat: no-repeat;
+    background-image: url(../img/people-50.png);
+    background-color: #333;
+}
+.bg-repeat{
+    background-repeat: repeat;
+    background-image: url(../img/people-50.png);
+    background-color: #333;
+}
+.repeat-x{
+    background-repeat: repeat-x;
+    background-image: url(../img/people-50.png);
+    background-color: #333;
+}
+.repeat-y{
+    background-repeat: repeat-y;
+    background-image: url(../img/people-50.png);
+    background-color: #333;
+}
+/*Позиция фонового изображения*/
+.bg-gor{
+    background-repeat: no-repeat;
+    background-image: url(../img/people-50.png);
+    background-color: #555;
+    background-position: right 10px;
+}

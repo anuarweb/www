@@ -1,0 +1,4 @@
+textarea::selection{
+    background: red;
+    color: #fff;
+}

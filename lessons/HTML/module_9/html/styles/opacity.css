@@ -1,0 +1,7 @@
+.opa{
+    width: 500px;
+    height: 250px;
+    background: #aaa;
+    opacity: 0.5;
+    filter:alpha(opacity=50);/*IE*/
+}

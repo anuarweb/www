@@ -1,0 +1,14 @@
+Server
+https://srv-plesk17.ps.kz:8443/
+login: hospital
+pass: 4imoSt2P09
+
+database
+srv-pleskdb17.ps.kz:3306 (MySQL)
+db name: hospi_wordpres_7
+db pass: hospi_wordpres_7
+
+Wordpress
+http://hospital-mvd.kz/wp-admin
+login: anuarwebkz_tj2i9dp4
+pass: Qda#sI50X9 

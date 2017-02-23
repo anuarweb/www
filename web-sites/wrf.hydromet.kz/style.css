@@ -1,0 +1,68 @@
+table  {
+  width: 100%;
+  text-align: center;
+	}
+th {
+  text-align: left;
+  background: lightgreen;
+  padding: 5px;
+   }
+th.calendar {
+  text-align: center;
+  background: lightgreen;
+  padding: 5px;
+	}
+td {
+    padding: 5px;
+   }
+td.month {text-align: left;}
+aside { /* Правая колонка */
+ width: 230px; /* Ширина правой колонки */
+ float: left; /* Обтекание */
+  border: 2px solid lightgreen;
+  margin-top: 10px;
+}
+article { /* Левая колонка */
+  border: 2px solid lightgreen;
+  margin-left: 240px; /* Отступ справа */
+  margin-top: 10px;
+}
+ul.menu {
+ list-style: none; /* Убираем маркеры */
+ margin: 5px  0; /* Отступ сверху и снизу */
+ padding: 0; /* Поля */
+}
+ul.menu li {
+ padding: 3px; /* Поля */ 
+ font-size: 0.9em; /* Размер шрифта */
+ font-weight: bold; /* Жирное начертание */
+}
+ul.menu a, ul.menu span {
+ padding: 5px; /* Поля */
+}
+ul.menu li span {
+ padding-left: 0px; /* Поле слева */
+
+ }
+ ul.menu li.current { 
+ background: lightgreen; /* Градиент */
+ list-style-type: disc;
+ list-style-position: inside;
+ padding-left: 15px;
+}
+ul.menu li.current2 { 
+ background: lightgreen; /* Градиент */
+ list-style-type: circle;
+ list-style-position: inside;
+ padding-left: 15px;
+}
+ul.menu li.line { 
+ border-bottom: 2px solid lightgreen; /* Градиент */
+}
+ul.menu li.mg { 
+ padding-left: 25px;
+}
+div.header {
+  color: blue;
+  font-weight: bold;
+	}
