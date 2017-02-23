@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 div{
     border: 3px solid #666;
     display: inline-block;
@@ -12,4 +13,20 @@ div img{
 }
 .clear img{
     clear: both;
+=======
+div{
+    border: 3px solid #666;
+    display: inline-block;
+}
+img{
+    width: 150px;
+    margin: 5px;
+}
+div img{
+    display: block;
+    float: right;
+}
+.clear img{
+    clear: both;
+>>>>>>> 618f5d7a796df32ff4a617ecbce342e8c133d942
 }

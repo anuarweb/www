@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 input{
     padding: 10px;
     border: 3px dotted #ccc;
@@ -6,4 +7,14 @@ input:focus{
     border: 3px solid #ccc;
     box-shadow: none;
     outline: none;
+=======
+input{
+    padding: 10px;
+    border: 3px dotted #ccc;
+}
+input:focus{
+    border: 3px solid #ccc;
+    box-shadow: none;
+    outline: none;
+>>>>>>> 618f5d7a796df32ff4a617ecbce342e8c133d942
 }

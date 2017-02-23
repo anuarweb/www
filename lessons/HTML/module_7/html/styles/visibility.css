@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 div{
     border: 3px solid #666;
     height: 50px;
@@ -7,4 +8,15 @@ div{
 }
 .hidden{
     visibility: hidden;
+=======
+div{
+    border: 3px solid #666;
+    height: 50px;
+}
+.visible{
+    visibility: visible;
+}
+.hidden{
+    visibility: hidden;
+>>>>>>> 618f5d7a796df32ff4a617ecbce342e8c133d942
 }

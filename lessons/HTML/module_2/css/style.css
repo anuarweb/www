@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .block{
     width: 250px;
     height: 80px;
@@ -11,4 +12,19 @@
     border-top-width: 5px;
     border-top-style: dashed;
     border-top-color: green;
+=======
+.block{
+    width: 250px;
+    height: 80px;
+    overflow: auto;
+    transition: all 0.2s ease;
+    
+    border-width: 2px;
+    border-style: dotted;
+    border-color: red;
+    
+    border-top-width: 5px;
+    border-top-style: dashed;
+    border-top-color: green;
+>>>>>>> 618f5d7a796df32ff4a617ecbce342e8c133d942
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .res-img{
     width: 1000px;
     max-width: 100%;
@@ -7,4 +8,15 @@
 .res-img img{
     width: 100%;
     height: auto;
+=======
+.res-img{
+    width: 1000px;
+    max-width: 100%;
+    min-width: 500px;
+    text-align: center;
+}
+.res-img img{
+    width: 100%;
+    height: auto;
+>>>>>>> 618f5d7a796df32ff4a617ecbce342e8c133d942
 }

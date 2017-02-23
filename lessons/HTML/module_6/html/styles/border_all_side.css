@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 div{
     height: 100px;
     margin: 10px;
@@ -24,4 +25,32 @@ div{
     border-left-width: 20px;
     border-left-color: blue;
     
+=======
+div{
+    height: 100px;
+    margin: 10px;
+    background: #ccc;
+}
+.all-side{
+    /*Стиль для верхний границы*/ 
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-top-color: #555;
+    
+    /*Стиль для правой границы*/ 
+    border-right-style: dashed;
+    border-right-width: 10px;
+    border-right-color: #aaa;
+    
+    /*Стиль для нижней границы*/ 
+    border-bottom-style: dotted;
+    border-bottom-width: 15px;
+    border-bottom-color: #000;
+    
+    /*Стиль для левой границы*/ 
+    border-left-style: groove;
+    border-left-width: 20px;
+    border-left-color: blue;
+    
+>>>>>>> 618f5d7a796df32ff4a617ecbce342e8c133d942
 }

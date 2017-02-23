@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 table{
     border-width: 1px;
     border-style: solid;
@@ -8,3 +9,15 @@ td{
     border-width: 1px;
     border-style: solid;
 }
+=======
+table{
+    border-width: 1px;
+    border-style: solid;
+    margin: 10px;
+    border-collapse: collapse;
+}
+td{
+    border-width: 1px;
+    border-style: solid;
+}
+>>>>>>> 618f5d7a796df32ff4a617ecbce342e8c133d942

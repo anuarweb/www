@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 div{
     height: 100px;
     margin: 10px;
@@ -5,4 +6,13 @@ div{
 }
 .multy{
     border-style: dashed double solid inset;
+=======
+div{
+    height: 100px;
+    margin: 10px;
+    background: #ccc;
+}
+.multy{
+    border-style: dashed double solid inset;
+>>>>>>> 618f5d7a796df32ff4a617ecbce342e8c133d942
 }

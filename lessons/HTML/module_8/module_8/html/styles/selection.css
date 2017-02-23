@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 textarea::selection{
     background: red;
     color: #fff;
+=======
+textarea::selection{
+    background: red;
+    color: #fff;
+>>>>>>> 618f5d7a796df32ff4a617ecbce342e8c133d942
 }

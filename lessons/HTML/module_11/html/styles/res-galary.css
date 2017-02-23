@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .image-galary{
     width: 1000px;
     max-width: 90%;
@@ -15,4 +16,23 @@
 .block img{
     max-width: 100%;
     display: inline-block;
+=======
+.image-galary{
+    width: 1000px;
+    max-width: 90%;
+    min-width: 500px;
+    text-align: center;
+    margin:  20px auto;
+}
+.block{
+   display: inline-block;
+   max-width: 38%;
+    padding: 1%;
+    border: 2px solid #555;
+    margin: 1%;
+}
+.block img{
+    max-width: 100%;
+    display: inline-block;
+>>>>>>> 618f5d7a796df32ff4a617ecbce342e8c133d942
 }

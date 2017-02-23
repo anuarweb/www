@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ul{
     list-style: none;
     width: 200px;
@@ -22,4 +23,30 @@ ul li:nth-child(3n){
 }
 ul li:nth-child(7){
     background: blue;
+=======
+ul{
+    list-style: none;
+    width: 200px;
+    text-align: center;
+    padding: 0;
+}
+ul li{
+    padding: 10px;
+    border: 1px solid #ccc;
+    color: #fff;
+    font-family: cursive;
+    letter-spacing: 5px;
+}
+ul li:nth-child(2n){
+    background: #ccc;
+}
+ul li:nth-child(2n - 1){
+    background: #aaa;
+}
+ul li:nth-child(3n){
+    background: #000;
+}
+ul li:nth-child(7){
+    background: blue;
+>>>>>>> 618f5d7a796df32ff4a617ecbce342e8c133d942
 }

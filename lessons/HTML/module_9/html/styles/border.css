@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 div{
     width: 100px;
     height: 100px;
@@ -21,4 +22,29 @@ div{
     border-top-right-radius: 10px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 20px;
+=======
+div{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background: #ccc;
+}
+.all-border-px{
+    border-radius: 10px;
+}
+.all-border-per{
+    border-radius: 30%;
+}
+.side-border-px{
+    border-radius: 10px 20px 0 0;
+}
+.side2-border-px{
+    border-radius: 10px 20px;
+}
+.side3-border-px{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 20px;
+>>>>>>> 618f5d7a796df32ff4a617ecbce342e8c133d942
 }
