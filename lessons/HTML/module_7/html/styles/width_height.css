@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 div{
     border: 1px solid #ccc;
     margin: 10px;
@@ -22,4 +23,30 @@ div{
     height: 90%;
     margin:10px auto;
     background-color: gray;
+=======
+div{
+    border: 1px solid #ccc;
+    margin: 10px;
+}
+.new1{
+    width: 200px;
+    height: 100px;
+    background-color: #8270e8;
+}
+.new2{
+    width: 20%;
+    height: 20px;
+    background-color: #33b8d8 ;
+}
+
+.parent{
+    width: 450px;
+    height: 200px;
+}
+.child{
+    width: 90%;
+    height: 90%;
+    margin:10px auto;
+    background-color: gray;
+>>>>>>> 618f5d7a796df32ff4a617ecbce342e8c133d942
 }

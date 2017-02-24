@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 *{
     padding: 0;
@@ -91,4 +92,99 @@
     .footer .block-3{
         width: 100%;
     } 
+=======
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    width: 960px;
+    max-width: 90%;
+    margin: 10px auto;
+    text-align: center;
+}
+.header{
+    font-size: 0;
+    margin-bottom: 1%;
+}
+.header .block{
+    width: 100%;
+    height: 120px;
+    background: #555;
+    display: inline-block;
+    f
+}
+.content{
+    font-size: 0;
+    margin-bottom: 1%;
+}
+.content .block-1{
+    width: 60%;
+    float: left;
+    height: 400px;
+    background: #50C1E9;
+    letter-spacing: normal;
+    margin-bottom: 1%;
+}
+.content .block-2{
+    width: 39%;
+    float: left;
+    height: 400px;
+    background: #48CFAE;
+    letter-spacing: normal;
+    margin-bottom: 1%;
+    float: right;
+}
+.footer{
+    font-size: 0;
+    margin-bottom: 1%; 
+}
+.footer .block-1{
+    width: 34%;
+    float: left;
+    height: 50px;
+    background: #1F232C;
+    letter-spacing: normal;
+    margin-bottom: 1%;
+    margin-right: 1%;
+}
+.footer .block-2{
+    width: 34%;
+    float: left;
+    height: 50px;
+    background: #F56B47;
+    letter-spacing: normal;
+    margin-bottom: 1%;
+    margin-right: 1%;
+}
+.footer .block-3{
+    width: 30%;
+    float: left;
+    height: 50px;
+    background: #ED5564;
+    letter-spacing: normal;
+    margin-bottom: 1%;
+}
+
+@media screen and (max-width: 768px) { /* разрешение планшета */
+    .header .block{
+        min-width: 100%;
+    }
+    .content .block-1{
+        width: 100%;
+    }
+    .content .block-2{
+        width: 100%;
+    }
+    .footer .block-1{
+        width: 100%;
+    } 
+    .footer .block-2{
+        width: 100%;
+    } 
+    .footer .block-3{
+        width: 100%;
+    } 
+>>>>>>> 618f5d7a796df32ff4a617ecbce342e8c133d942
 }

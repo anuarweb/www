@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face {
     font-family: "kartun";
     src: url("../fonts/kartun-webfont.eot");
@@ -9,4 +10,17 @@
 }
 p{
     font-family: kartun;
+=======
+@font-face {
+    font-family: "kartun";
+    src: url("../fonts/kartun-webfont.eot");
+    src: url("../fonts/kartun-webfont.woff") format("woff"),
+           url("../fonts/kartun-webfont.ttf") format("truetype"),
+           url("../fonts/kartun-webfont.svg#kartun") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+p{
+    font-family: kartun;
+>>>>>>> 618f5d7a796df32ff4a617ecbce342e8c133d942
 }

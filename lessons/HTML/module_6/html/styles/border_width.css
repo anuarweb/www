@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 div{
     height: 100px;
     margin: 10px;
@@ -18,4 +19,26 @@ div{
 .thick{
     border-style: solid;
     border-width: thick;
+=======
+div{
+    height: 100px;
+    margin: 10px;
+    background: #ccc;
+}
+.size{
+    border-style: solid;
+    border-width: 10px;
+}
+.thin{
+    border-style: solid;
+    border-width: thin;
+}
+.medium{
+    border-style: solid;
+    border-width: medium;
+}
+.thick{
+    border-style: solid;
+    border-width: thick;
+>>>>>>> 618f5d7a796df32ff4a617ecbce342e8c133d942
 }

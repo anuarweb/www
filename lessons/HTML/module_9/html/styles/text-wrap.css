@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     background: #aaa;
     color: #fff;
@@ -14,4 +15,22 @@ p{
     text-overflow: ellipsis;
     overflow: hidden;
     white-space:nowrap;
+=======
+body{
+    background: #aaa;
+    color: #fff;
+}
+p{
+    width: 400px;
+}
+.out{
+    text-overflow: clip;
+    overflow: hidden;
+    white-space:nowrap;
+}
+.inset{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space:nowrap;
+>>>>>>> 618f5d7a796df32ff4a617ecbce342e8c133d942
 }

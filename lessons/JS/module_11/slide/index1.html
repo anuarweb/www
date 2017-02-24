@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!-- 
     Лабораторная работа №2
     По клику на треугольник сворачивать и разворачивать изображение используя методы Slide в jQuery
@@ -31,4 +32,39 @@
         </center>
     </section>
 </body>
+=======
+<!-- 
+    Лабораторная работа №2
+    По клику на треугольник сворачивать и разворачивать изображение используя методы Slide в jQuery
+    Треугольник должен менять свое состояние в зависимости от состояния изображения
+    Код треугольника вверх - &#9650;
+    Код треугольника вниз - &#9660;
+  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Slide</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Include jQuery -->
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <!-- Ваш скрипт -->
+    <script src="slide.js"></script>
+</head>
+<body>
+    <section id="slide">
+       <div class="top">
+           <article>Show Text</article>
+           <!-- Блок с треугольником по которому должен происходить клик 
+               Обратите внимание на атрибут data-status
+           -->
+           <div class="spinner" data-status='up'>&#9650;</div>
+        </div>
+        <!-- Изображение -->
+        <center>
+            <img src="img1.jpg" alt="img1.jpg">
+        </center>
+    </section>
+</body>
+>>>>>>> 97bff1b82a2f6506a747f2f5e80ab10ce79655d1
 </html>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 div{
     height: 100px;
     margin: 10px;
@@ -29,3 +30,36 @@ div{
 }.outset{
     border-style: outset;
 }
+=======
+div{
+    height: 100px;
+    margin: 10px;
+    background: #ccc;
+}
+.none{
+    border-style: none;
+}
+.dotted{
+    border-style: dotted;
+}
+.dashed{
+    border-style: dashed;
+}
+.solid{
+    border-style: solid;
+}
+.double{
+    border-style: double;
+}
+.groove{
+    border-style: groove;
+}
+.ridge{
+    border-style: ridge;
+}
+.inset{
+    border-style: inset;
+}.outset{
+    border-style: outset;
+}
+>>>>>>> 618f5d7a796df32ff4a617ecbce342e8c133d942

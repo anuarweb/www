@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 div{
     width: 100px;
     height: 100px;
@@ -20,3 +21,27 @@ div{
 .rel5{
     left: 80px;
 }
+=======
+div{
+    width: 100px;
+    height: 100px;
+    background: #ccc;
+    margin: 10px;
+    position: relative;
+}
+.rel1{
+    left: 0px;
+}
+.rel2{
+    left: 20px;
+}
+.rel3{
+    left: 40px;
+}
+.rel4{
+    left: 60px;
+}
+.rel5{
+    left: 80px;
+}
+>>>>>>> 618f5d7a796df32ff4a617ecbce342e8c133d942

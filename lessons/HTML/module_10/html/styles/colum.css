@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     background-color: #bbb;
 }
@@ -21,4 +22,29 @@ div p{
     -webkit-column-gap: 20px;
     -webkit-column-rule: 1px dashed #ccc;
     -webkit-column-width: 120px;
+=======
+body{
+    background-color: #bbb;
+}
+div{
+    margin: 20px auto;
+    border: 3px solid #ccc;
+    background-color: #fff;
+}
+p{
+    font-family: cursive;
+    line-height: 30px;
+    color: #555;
+    padding: 10px;
+}
+img{
+    width: 70px;
+    float: left;
+}
+div p{
+    -webkit-column-count: 3;
+    -webkit-column-gap: 20px;
+    -webkit-column-rule: 1px dashed #ccc;
+    -webkit-column-width: 120px;
+>>>>>>> 618f5d7a796df32ff4a617ecbce342e8c133d942
 }

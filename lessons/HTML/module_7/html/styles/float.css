@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ul{
     list-style: none;
 }
@@ -9,4 +10,17 @@ ul{
 }
 .float-right li{
  //   float: right;
+=======
+ul{
+    list-style: none;
+}
+.none li{
+    float: none;
+}
+.float-left li{
+   // float:  left;
+}
+.float-right li{
+ //   float: right;
+>>>>>>> 618f5d7a796df32ff4a617ecbce342e8c133d942
 }

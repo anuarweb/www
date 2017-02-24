@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     background: url(../img/eight_horns.png);
 }
@@ -14,4 +15,22 @@ div{
 }
 .hsla{
     background-color: hsla(0, 50%, 50%, 0.5);
+=======
+body{
+    background: url(../img/eight_horns.png);
+}
+div{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.hsl{
+    background-color: hsl(0, 50%, 50%);
+}
+.rgba{
+    background-color: rgba(255, 0, 255, 0.5);
+}
+.hsla{
+    background-color: hsla(0, 50%, 50%, 0.5);
+>>>>>>> 618f5d7a796df32ff4a617ecbce342e8c133d942
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*RESET*/
 *{
     padding: 0;
@@ -192,3 +193,199 @@ li.margin-logo{
 .clear{
     clear: both;
 }
+=======
+/*RESET*/
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+p,a{
+    font:16px Rockwell;
+    color: #bcbcbc;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-family:Rockwell;
+    color: #000;
+}
+/*RESET MAIN BLOCK*/
+.wrapper{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    height: 350px;
+    background: url(img/top-bg.jpg);
+}
+.content, .footer{
+    width: 940px;
+    margin: 0 auto;
+}
+.top-menu{
+    width: 100%;
+    height: 83px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+/*LOGO*/
+.logo{
+    display: inline-block;
+    position: absolute;
+    top: -80px;
+    left: 50%;
+    margin-left: -105px;
+}
+li.margin-logo{
+    width: 150px;
+    margin-right: 100px;
+}
+/*TOP MENU*/
+.nav{
+    height: 100%;
+    display: inline-block;
+    width: 470px;
+    margin:0 auto;
+}
+.nav-left{
+    margin-right: 20px;
+}
+.nav-right{
+    margin-left: 60px;
+}
+.nav li{
+    margin: 20px 0 0 40px;
+    display: inline-block;
+
+}
+.nav li a{
+    font-size: 24pt;
+    display: block;
+    font-weight: bold;
+}
+.nav li a:hover{
+    color: #3eb3a5;
+}
+/*SLOGAN*/
+.slogan{  
+    text-align: center;
+}
+.slogan p{
+    margin: 80px auto 0 auto;
+}
+.slogan-line{
+    width: 35px;
+    height: 1px;
+    margin: 5px auto;
+    background: #bcbcbc;
+}
+/*Content*/
+.block{
+    height: 335px;
+    border-bottom: 2px dashed #bcbcbc;
+    margin-top: 37px; 
+}
+.block-left, .block-right{
+    float: left;
+    margin-top: 0px; 
+}
+/*Block-left*/
+.block-left{
+    width: 120px;
+    height: 100%;
+    position: relative;
+    z-index: 3;
+}
+.date{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 7px solid #ebebeb; 
+    background: #fff;
+}
+.date p{
+    line-height: 120px;
+    color: #3eb3a5;
+    font-size: 30px;
+    font-weight: bold;
+}
+/*Block-right*/
+.block-right{
+    height: 100%;
+    width: 780px;
+    text-align: left;
+}
+.cont-status{
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    margin-top: 50px; 
+    display: inline-block;
+    padding-left: 40px;
+    padding-bottom: 10px; 
+}
+.category, .likes, .comments{
+    float: left;
+    margin-right: 20px;
+}
+.category p{
+    font-size: 14px;
+}
+.category span{
+    color: #3eb3a5;
+}
+.likes p{
+    font-size: 14px;
+}
+.comments p{
+    font-size: 14px;
+}
+.text h1{
+    margin: 25px 0 25px 40px; 
+}
+.text p{
+    margin: 0 0 10px 40px; 
+    line-height: 20px;
+}
+.read-more{
+    margin-left: 40px;
+}
+.read-more a{
+    color: #3eb3a5;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 1px solid #cbcbcb;
+}
+/*Load More*/
+.load-more{
+    margin: 50px 0;
+}
+.load-more a{
+    display: inline-block;
+    background: #3eb3a5;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold
+}
+/*FOOTER*/
+.footer{
+    height: 120px;
+}
+.footer p{
+    margin-top: 100px; 
+}
+.footer span{
+    color: #3eb3a5;
+    font-weight: bold;
+}
+/*Other*/
+.clear{
+    clear: both;
+}
+>>>>>>> 618f5d7a796df32ff4a617ecbce342e8c133d942
