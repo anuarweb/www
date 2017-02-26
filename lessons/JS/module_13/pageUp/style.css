@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -27,4 +28,35 @@ body{
     bottom: 20px;
     display: none;
     cursor: pointer;
+=======
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+}
+#wrapper{
+    width: 600px;
+    height: 2000px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0,0,0,.5);
+    margin: 10px auto;
+    background: #f2f2f2;
+}
+#page-up{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    text-align: center;
+    border-radius: 50%;
+    background: #1abc9c;
+    color: #fff;
+    box-shadow: 1px 1px 10px rgba(0,0,0,.1); 
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    display: none;
+    cursor: pointer;
+>>>>>>> 97bff1b82a2f6506a747f2f5e80ab10ce79655d1
 }

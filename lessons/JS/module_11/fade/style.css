@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #fade{
     display: inline-block;
     border: 2px solid #555;
@@ -5,3 +6,12 @@
     overflow: hidden;
     box-shadow: 1px 1px 10px rgba(0,0,0,.4);
 }
+=======
+#fade{
+    display: inline-block;
+    border: 2px solid #555;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 1px 1px 10px rgba(0,0,0,.4);
+}
+>>>>>>> 97bff1b82a2f6506a747f2f5e80ab10ce79655d1
