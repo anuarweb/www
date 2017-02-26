@@ -1,0 +1,21 @@
+.container{
+    -webkit-animation-name: bg;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-iteration-count: 30;
+    -webkit-animation-direction: normal;
+}
+.container:hover{
+     -webkit-animation-play-state: start;
+}
+@-webkit-keyframes bg{
+    0%{
+        margin-left: 0;
+    }
+    50%{
+        margin-left: 100px
+    }
+    100%{
+        margin-left: 0;
+    }
