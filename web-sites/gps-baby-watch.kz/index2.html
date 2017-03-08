@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>GPS-BABY-WATCH.kz</title>
-      
-    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
-    <script src="js/api.js"></script>
+    
+    <script src="https://api-maps.yandex.ru/2.1/?load=Map&lang=ru_RU&load=Map&id=map" type="text/javascript"></script>
+    <script src="js/api.js"></script>	    
  
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -21,10 +21,6 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.js"></script>
   
 </head>
   <body>
@@ -57,8 +53,11 @@
 		    <h1>Map</h1>
 		<div id="map">
 		</div>
-	    </div>   
-  
-    </div>
+	</div>
+   
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
   </body>
 </html>
